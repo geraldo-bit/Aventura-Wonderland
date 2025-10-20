@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: url('https://uploads.onecompiler.io/43rztsvzx/43ztfqjnp/relogio.png') 16 16, help;
+   cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxLjUiPjxwYXRoIGQ9Ik0zIDE0di00YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJ6Ii8+PHBhdGggZD0iTTE1IDEyaDJhMiAyIDAgMCAxIDAgNGgtMiIvPjxwYXRoIGQ9Ik01IDE2aDh2MmEyIDIgMCAwIDEtMiAyaC00YTIgMiAwIDAgMS0yLTJ2LTJ6Ii8+PC9zdmc+') 10 10, auto;
 }
 
 /* Animação para o texto da história */
@@ -105,8 +105,7 @@ button {
     font-family: 'Courgette', cursive;
     transition: background-color 0.3s;
     /* 👇 ADICIONE A LINHA DO CURSOR AQUI 👇 */
-    cursor: url('https://uploads.onecompiler.io/43rztsvzx/43ztfqjnp/relogio.png') 16 30, pointer;
-}
+cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZHToPSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjYjcyNTE3IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiLz48cGF0aCBkPSJNMTIgMmEzIDMgMCAwIDAtMyAzdjJhMyAzIDAgMSAwIDYgMFY1YTMgMyAwIDAgMC0zLTN6Ii8+PHBhdGggZD0iTTIyIDEyYTMgMyAwIDAgMC0zLTNoLTJhMyAzIDAgMSAwIDAgNmgwYTMgMyAwIDAgMCAzLTN6Ii8+PHBhdGggZD0iTTEyIDIyYTMgMyAwIDAgMCAzLTN2LTJhMyAzIDAgMSAwLTYgMHYyYTMgMyAwIDAgMCAzIDN6Ii8+PHBhdGggZD0iTTIgMTJhMyAzIDAgMCAwIDMgM2gyYTMgMyAwIDEgMCAwLTZINS43YTMgMyAwIDAgMC0zIDN6Ii8+PC9zdmc+') 16 16, pointer;}
 
 button:hover {
     background-color: #979797;
@@ -141,9 +140,8 @@ button:hover {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    cursor: url('https://uploads.onecompiler.io/43rztsvzx/43ztfqjnp/relogio.png') 16 30, pointer;
+cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZHToPSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjYjcyNTE3IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiLz48cGF0aCBkPSJNMTIgMmEzIDMgMCAwIDAtMyAzdjJhMyAzIDAgMSAwIDYgMFY1YTMgMyAwIDAgMC0zLTN6Ii8+PHBhdGggZD0iTTIyIDEyYTMgMyAwIDAgMC0zLTNoLTJhMyAzIDAgMSAwIDAgNmgwYTMgMyAwIDAgMCAzLTN6Ii8+PHBhdGggZD0iTTEyIDIyYTMgMyAwIDAgMCAzLTN2LTJhMyAzIDAgMSAwLTYgMHYyYTMgMyAwIDAgMCAzIDN6Ii8+PHBhdGggZD0iTTIgMTJhMyAzIDAgMCAwIDMgM2gyYTMgMyAwIDEgMCAwLTZINS43YTMgMyAwIDAgMC0zIDN6Ii8+PC9zdmc+') 16 16, pointer;
 }
-
 #choices button:hover {
     background-color: #979797;
 }
@@ -187,5 +185,13 @@ button:hover {
     top: 50%;
     transform: translateY(-50%);
 }
-
+/* Animação para o cursor girar */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 

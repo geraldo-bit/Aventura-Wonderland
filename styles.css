@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url();
+    background-image: url('https://uploads.onecompiler.io/43rztrxgp/43z573zgh/fundo-de-alice-no-pais-das-maravilhas-khb1bmkt53kb4222.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +105,8 @@ button {
     font-family: 'Courgette', cursive;
     transition: background-color 0.3s;
     /* 👇 ADICIONE A LINHA DO CURSOR AQUI 👇 */
-cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZHToPSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjYjcyNTE3IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiLz48cGF0aCBkPSJNMTIgMmEzIDMgMCAwIDAtMyAzdjJhMyAzIDAgMSAwIDYgMFY1YTMgMyAwIDAgMC0zLTN6Ii8+PHBhdGggZD0iTTIyIDEyYTMgMyAwIDAgMC0zLTNoLTJhMyAzIDAgMSAwIDAgNmgwYTMgMyAwIDAgMCAzLTN6Ii8+PHBhdGggZD0iTTEyIDIyYTMgMyAwIDAgMCAzLTN2LTJhMyAzIDAgMSAwLTYgMHYyYTMgMyAwIDAgMCAzIDN6Ii8+PHBhdGggZD0iTTIgMTJhMyAzIDAgMCAwIDMgM2gyYTMgMyAwIDEgMCAwLTZINS43YTMgMyAwIDAgMC0zIDN6Ii8+PC9zdmc+') 16 16, pointer;}
+cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNiNzI1MTciIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAuODQgNC42MWExLjEgMS4xIDAgMCAwLTcuNzggMEwxMiA1LjY3bC0xLjA2LTEuMDZhMS4xIDEuMSAwIDAgMC03Ljc4IDcuNzhsMS4wNiAxLjA2TDEyIDIxLjIzbDcuNzgtNy43OCAxLjA2LTEuMDZhMS4xIDEuMSAwIDAgMCAwLTcuNzh6Ij48L3BhdGg+PC9zdmc+') 16 16, pointer;
+}
 
 button:hover {
     background-color: #979797;
@@ -140,7 +141,7 @@ button:hover {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZHToPSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjYjcyNTE3IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMiLz48cGF0aCBkPSJNMTIgMmEzIDMgMCAwIDAtMyAzdjJhMyAzIDAgMSAwIDYgMFY1YTMgMyAwIDAgMC0zLTN6Ii8+PHBhdGggZD0iTTIyIDEyYTMgMyAwIDAgMC0zLTNoLTJhMyAzIDAgMSAwIDAgNmgwYTMgMyAwIDAgMCAzLTN6Ii8+PHBhdGggZD0iTTEyIDIyYTMgMyAwIDAgMCAzLTN2LTJhMyAzIDAgMSAwLTYgMHYyYTMgMyAwIDAgMCAzIDN6Ii8+PHBhdGggZD0iTTIgMTJhMyAzIDAgMCAwIDMgM2gyYTMgMyAwIDEgMCAwLTZINS43YTMgMyAwIDAgMC0zIDN6Ii8+PC9zdmc+') 16 16, pointer;
+cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNiNzI1MTciIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjAuODQgNC42MWExLjEgMS4xIDAgMCAwLTcuNzggMEwxMiA1LjY3bC0xLjA2LTEuMDZhMS4xIDEuMSAwIDAgMC03Ljc4IDcuNzhsMS4wNiAxLjA2TDEyIDIxLjIzbDcuNzgtNy43OCAxLjA2LTEuMDZhMS4xIDEuMSAwIDAgMCAwLTcuNzh6Ij48L3BhdGg+PC9zdmc+') 16 16, pointer;
 }
 #choices button:hover {
     background-color: #979797;

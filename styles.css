@@ -1,0 +1,191 @@
+/* Estilo para o corpo do documento */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://uploads.onecompiler.io/43rztrxgp/43z573zgh/fundo-de-alice-no-pais-das-maravilhas-khb1bmkt53kb4222.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: url('https://uploads.onecompiler.io/43rztsvzx/43ztfqjnp/relogio.png') 16 16, help;
+}
+
+/* Animação para o texto da história */
+@keyframes textFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Aplica a animação a qualquer parágrafo dentro da #story */
+#story p {
+  animation: textFadeIn 0.5s ease-in-out;
+}
+
+/* Overlay branco com opacidade para melhor legibilidade */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+}
+
+/* Tela de Introdução */
+#intro {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com opacidade */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    z-index: 1;
+}
+
+/* Animação de Fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #333;
+    font-size: 3em;
+}
+
+.message {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #b72517;
+}
+                                                                        
+.developers {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    margin-top: 14px;
+    color: #777;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #b72517;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+    transition: background-color 0.3s;
+    /* 👇 ADICIONE A LINHA DO CURSOR AQUI 👇 */
+    cursor: url('https://uploads.onecompiler.io/43rztsvzx/43ztfqjnp/relogio.png') 16 30, pointer;
+}
+
+button:hover {
+    background-color: #979797;
+}
+
+/* Estilo para o Jogo */
+#game {
+    text-align: center;
+    display: none;
+}
+
+/* Estilo para as escolhas */
+#choices {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os botões */
+}
+
+#choices button {
+    margin: 0; /* Remove a margem padrão */
+    padding: 12px 20px;
+    font-size: 1.1em;
+    background-color: #b72517;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courgette', cursive;
+    transition: background-color 0.3s;
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: url('https://uploads.onecompiler.io/43rztsvzx/43ztfqjnp/relogio.png') 16 30, pointer;
+}
+
+#choices button:hover {
+    background-color: #979797;
+}
+
+/* Estilo para o texto da história */
+#story {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: Georgia ;
+}
+
+/* Deixa o título 'relative' para posicionar os naipes */
+#intro h1, #game h1 {
+    position: relative;
+    display: inline-block; /* Importante para o posicionamento */
+    padding: 0 30px; /* Cria espaço para os naipes */
+}
+
+/* O naipe de Copas (antes do título) */
+#intro h1::before, #game h1::before {
+    content: '♥'; /* Você pode trocar por '♦' */
+    color: #b72517; /* O seu vermelho */
+    font-size: 0.8em;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* O naipe de Espadas (depois do título) */
+#intro h1::after, #game h1::after {
+    content: '♠'; /* Você pode trocar por '♣' */
+    color: #333; /* Preto */
+    font-size: 0.8em;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
